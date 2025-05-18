@@ -1,0 +1,20 @@
+{
+    "configurations": [
+        {
+            "name": "APRS-AFSK-TEST",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "/usr/include/x86_64-linux-gnu/",
+                "/usr/include/x86_64-linux-gnu/ImageMagick-6/",
+                "/usr/include/ImageMagick-6/",
+                "/usr/include/"
+            ],
+            "defines": ["SAMPLERATE=9600", "BITRATE=1200"],
+            "compilerPath": "/usr/bin/gcc",
+            "cStandard": "c17",
+            "cppStandard": "gnu++17",
+            "intelliSenseMode": "linux-gcc-x64"
+        }
+    ],
+    "version": 4
+}
