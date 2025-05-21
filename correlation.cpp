@@ -38,8 +38,8 @@ void afsk_init() {
 std::tuple<double, double, double, double> afsk_demod(double curr_sample) {
 /*********************************************************************************************************************/
     
-        uint8_t i;
-        int16_t d;
+        uint8_t i = 0;
+        double d = 0.0;
         double out_mark_i=0,out_mark_q=0,out_space_i=0,out_space_q=0;
     
         data[ptr]=curr_sample;
