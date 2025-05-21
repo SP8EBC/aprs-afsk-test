@@ -1,3 +1,7 @@
+aprs-afsk-test
+aprs-afsk-test.lst
+*.svg
+
 # Prerequisites
 *.d
 
